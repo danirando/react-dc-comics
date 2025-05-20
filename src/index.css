@@ -116,6 +116,14 @@ body {
     display: none;
 }
 
+button {
+    all: unset;
+    cursor: pointer;
+    color: white;
+    border: 2px solid #0082F9;
+    padding: .8rem;
+}
+
 /* heades */
 
 header img {
@@ -174,7 +182,7 @@ a:hover+.blue-line {
 main>.container-black {
     background-color: #1C1C1C;
     color: white;
-    height: 200px;
+    height: 150px;
 }
 
 main .container {
@@ -184,7 +192,7 @@ main .container {
 }
 
 main .container-blue {
-    height: 200px;
+    height: 150px;
     background-color: #0082F9;
 }
 
@@ -205,17 +213,18 @@ main .container .col-20 {
 footer {
     background-image: url(../src/assets/img/footer-bg.jpg);
     background-repeat: no-repeat;
-    flex-grow: 1;
     background-size: cover;
 }
 
-footer .container {
+footer .container.top {
     display: flex;
+    height: 450px;
 }
 
 footer .col-50 .logo {
     position: relative;
     top: -50px;
+    z-index: 0;
 }
 
 footer .col-50 li a {
@@ -239,4 +248,31 @@ footer .col-50 li h1 {
     font-size: 1rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
+}
+
+footer .footer-bottom {
+
+    background-color: #303030;
+    z-index: 1;
+    position: relative;
+}
+
+footer .footer-bottom .container {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+footer .footer-bottom li p {
+    color: #0082F9;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+footer .footer-bottom ul {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
 }

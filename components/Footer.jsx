@@ -58,6 +58,36 @@ export default function Footer() {
                     <img className="logo" src="../src/assets/img/dc-logo-bg.png" alt="" />
                 </div>
             </div>
+            <div className="footer-bottom">
+                <div className="container">
+                    <div>
+                          <button>SIGN-UP NOW!</button>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <p>FOLLOW US</p>
+                            </li>
+                            <li>
+                                <img src="src/assets/img/footer-facebook.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="src/assets/img/footer-twitter.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="src/assets/img/footer-youtube.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="src/assets/img/footer-pinterest.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="src/assets/img/footer-periscope.png" alt="" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </footer>
+        
     )
 }
