@@ -2,6 +2,12 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 /* CSS RESET */
 
 * {
@@ -192,4 +198,45 @@ main .container .col-20 {
     gap: 1.5rem;
     font-size: .8rem;
     color: white;
+}
+
+/* footer */
+
+footer {
+    background-image: url(../src/assets/img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    background-size: cover;
+}
+
+footer .container {
+    display: flex;
+}
+
+footer .col-50 .logo {
+    position: relative;
+    top: -50px;
+}
+
+footer .col-50 li a {
+    color: #797979;
+    font-size: .8rem;
+}
+
+.col-50.link {
+    display: flex;
+}
+
+footer .col-50 li {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+footer .col-50 li h1 {
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
