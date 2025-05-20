@@ -1,0 +1,170 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #303030;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* UTILS */
+
+.debug {
+    min-height: 50px;
+    padding: 5px;
+    background-color: #ff000022;
+    border: 2px dashed red;
+}
+
+.container {
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+}
+
+[class^='col'] {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.col-100 {
+    width: 100%;
+}
+
+.col-90 {
+    width: 90%;
+}
+
+.col-80 {
+    width: 80%;
+}
+
+.col-75 {
+    width: 75%;
+}
+
+.col-70 {
+    width: 70%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-1-3 {
+    width: calc(100% / 3);
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.col-20 {
+    width: 20%;
+}
+
+.col-10 {
+    width: 10%;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.d-none {
+    display: none;
+}
+
+/* heades */
+
+header img {
+    width: 70%;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+
+}
+
+header ul {
+    display: flex;
+    gap: 2rem;
+    height: 120px;
+    align-items: center;
+}
+
+header ul a {
+    font-weight: 900;
+    font-size: .8rem;
+}
+
+header ul a:focus {
+    color: #0082F8;
+}
+
+header li {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.blue-line {
+    height: 5px;
+    background-color: #0082F8;
+    width: 100%;
+    margin-top: 5px;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    position: absolute;
+    bottom: 0;
+}
+
+a:focus+.blue-line,
+a:hover+.blue-line {
+    opacity: 1;
+}
+
+/* main */
+
+main {
+    background-color: #1C1C1C;
+}

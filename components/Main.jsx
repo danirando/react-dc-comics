@@ -1,3 +1,7 @@
 export default function Main() {
-    return (<header><h1>ciaooo</h1></header>)
+    return (
+    <main>
+        <h1>main</h1>
+    </main>
+    )
 }
