@@ -165,6 +165,31 @@ a:hover+.blue-line {
 
 /* main */
 
-main {
+main>.container-black {
     background-color: #1C1C1C;
+    color: white;
+    height: 200px;
+}
+
+main .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+main .container-blue {
+    height: 200px;
+    background-color: #0082F9;
+}
+
+main .container-blue img {
+    height: 50px;
+}
+
+main .container .col-20 {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: .8rem;
+    color: white;
 }
