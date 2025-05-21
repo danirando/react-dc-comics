@@ -5,11 +5,7 @@ export default function Main() {
     <main>
       <div className="container-black">
         <div className="container">
-          <Alert
-            type="alert"
-            colorBg="success"
-            colorText="blue"
-            text="testo all’interno dell’alert"></Alert>
+          <Alert type="alert"></Alert>
         </div>
       </div>
       <div className="container-blue">

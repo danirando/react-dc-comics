@@ -288,4 +288,11 @@ main .alert {
 main .alert.success {
     border-color: #0082F8;
     color: #0082F9;
+    background-color: #c4e2fe;
+}
+
+main .alert.danger {
+    color: red;
+    border-color: red;
+    background-color: rgb(255, 171, 171);
 }
