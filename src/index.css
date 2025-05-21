@@ -276,3 +276,16 @@ footer .footer-bottom ul {
     align-items: center;
     gap: 1.5rem;
 }
+
+/* alert */
+
+main .alert {
+    border: 2px solid white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+main .alert.success {
+    border-color: #0082F8;
+    color: #0082F9;
+}
