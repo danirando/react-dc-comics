@@ -216,16 +216,17 @@ main .card-container {
 }
 
 main .card-container .card img {
-    height: 150px;
     width: 150px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: top;
+    display: block;
 
 }
 
 main .card-container .card h4 {
     word-wrap: break-word;
-    /* o overflow-wrap */
     max-width: 150px;
-    /* imposta un limite di larghezza */
     color: white;
     padding-top: .8rem;
     padding-bottom: 1rem;
