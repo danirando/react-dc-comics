@@ -187,12 +187,14 @@ main>.container-black {
     position: relative;
 }
 
+
 main .current-series {
     background-color: #0082F8;
     padding: 1rem;
     font-weight: 900;
     position: absolute;
-    bottom: -30px;
+    transform: translateY(-50%);
+    top: 100%;
 }
 
 main .container {
@@ -201,9 +203,49 @@ main .container {
     height: 100%;
 }
 
+main .black-bg {
+    background-color: #1C1C1C;
+}
+
+main .card-container {
+    background-color: #1C1C1C;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 70px;
+}
+
+main .card-container .card img {
+    height: 150px;
+    width: 150px;
+
+}
+
+main .card-container .card h4 {
+    word-wrap: break-word;
+    /* o overflow-wrap */
+    max-width: 150px;
+    /* imposta un limite di larghezza */
+    color: white;
+    padding-top: .8rem;
+    padding-bottom: 1rem;
+    font-weight: 100;
+}
+
+main .container.column {
+    flex-direction: column;
+}
+
 main .container-blue {
     height: 150px;
     background-color: #0082F9;
+}
+
+button.load-more {
+    background-color: #0082F9;
+    margin-bottom: 2rem;
+    padding: .8rem 6rem;
+    font-weight: 900;
 }
 
 main .container-blue img {

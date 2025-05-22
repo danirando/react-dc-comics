@@ -1,6 +1,8 @@
 import Alert from "./Alert";
 
-export default function Main() {
+import Cards from "./Cards";
+
+export default function Main({ DataCards }) {
   return (
     <main>
       <div className="container-black">
@@ -9,6 +11,15 @@ export default function Main() {
           <Alert type="alert"></Alert>
         </div>
       </div>
+      <div className="black-bg">
+        <div className="container column">
+          <div className="card-container">
+            <Cards data={DataCards} />
+          </div>
+          <button className="load-more">LOAD MORE</button>
+        </div>
+      </div>
+
       <div className="container-blue">
         <div className="container">
           <div className="col-20">
