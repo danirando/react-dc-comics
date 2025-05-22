@@ -5,6 +5,7 @@ export default function Main() {
     <main>
       <div className="container-black">
         <div className="container">
+          <div className="current-series">CURRENT SERIES</div>
           <Alert type="alert"></Alert>
         </div>
       </div>
